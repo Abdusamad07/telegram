@@ -1,0 +1,565 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+.section-btn
+{
+ width: 330px;
+ height: 520px;
+ background-color: rgb(29, 28, 28);
+ border-right:solid 2px rgb(14, 13, 13);
+}
+.header
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 940px;
+    height: 520px;
+
+}
+.header-btn
+{
+    display: flex;
+    align-items: center;
+}
+.section
+{
+    width:930px;
+    height: 20px;
+    background-color: rgb(53, 52, 52);
+}
+.section-btn input
+{
+    background-color:rgb(34, 33, 33);
+    padding: 7px;
+    border: solid 2px rgb(34, 33, 33);
+    outline: none;
+    width: 260px;
+    color: white;
+    border-radius: 5px;
+}
+.main-btn
+{
+    padding: 20px 0px 0px 60px;
+    display: flex;
+    align-items: center;
+}
+.foydalanuvchilar
+{
+    height: 442px;
+    overflow:hidden;
+}
+.hr-btn hr
+{
+    line-height: 2px;
+    width: 25px;
+    margin-left: -45px;
+}
+.hr-btn hr:nth-child(2)
+{
+    margin-top: -4px;
+}
+.hr-btn hr:nth-child(3)
+{
+    margin-top: -3px;
+}
+.foydalanuvchilar:hover
+{
+    height: 442px;
+    overflow-y: auto;
+}
+.asadbek-btn
+{
+    list-style-type: none;
+    margin-left: -70px;
+    padding-top: 0px;
+    width: 330px;
+    
+}
+
+.asadbek 
+{
+    text-decoration: none;
+    line-height: 2px;
+}
+.asadbek img
+{
+    border-radius: 50%;
+}
+.asadbek p
+{
+    margin-top: 0px;
+     margin-left: -110px;
+     color: white;
+     font-size: 19px;
+}
+.a-span
+{
+    margin-left: -110px;
+     color: rgb(95, 92, 92);
+     font-size: 15px; 
+}.time
+{
+    color:rgb(95, 92, 92);
+    margin-right:15px;
+    font-size: 15px;
+    
+}
+.asadbek
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+
+
+
+.umidjon-btn
+{
+    list-style-type: none;
+    margin-left: -70px;
+    padding-top: 20px;
+    width: 330px;
+}
+.umidjon 
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+    line-height: 2px;
+}
+.umidjon img
+{
+    border-radius: 50%;
+}
+.umidjon p
+{
+    margin-top: 0px;
+     margin-left: -50px;
+     color: white;
+     font-size: 19px;
+}
+.u-span
+{
+    margin-left: -50px;
+     color: rgb(95, 92, 92);
+     font-size: 15px; 
+}.time-2
+{
+    color:rgb(95, 92, 92);
+    margin-right:15px;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+.asilbek-btn
+{
+    list-style-type: none;
+    margin-left: -70px;
+    padding-top: 20px;
+    width: 330px;
+}
+
+.asilbek 
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+    line-height: 2px;
+}
+.asilbek img
+{
+    border-radius: 50%;
+}
+.asilbek p
+{
+    margin-top: 0px;
+     margin-left: -100px;
+     color: white;
+     font-size: 19px;
+}
+.ak-span
+{
+    margin-left: -100px;
+     color: rgb(95, 92, 92);
+     font-size: 15px; 
+}.time-2
+{
+    color:rgb(95, 92, 92);
+    margin-right:15px;
+    font-size: 15px;
+    
+}
+
+
+
+
+.dilxushbek-btn
+{
+    list-style-type: none;
+    margin-left: -70px;
+    padding-top: 20px;
+    width: 330px;
+    background-color: rgb(65, 63, 63);
+    padding: 10px;
+}
+.dilxushbek 
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+    line-height: 2px;
+}
+.dilxushbek img
+{
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.dilxushbek p
+{
+    margin-top: 0px;
+     margin-left: -60px;
+     color: white;
+     font-size: 19px;
+}
+.d-span
+{
+    margin-left: -60px;
+     color: rgb(95, 92, 92);
+     font-size: 15px; 
+}.time-2
+{
+    color:rgb(95, 92, 92);
+    margin-right:15px;
+    font-size: 15px;
+    
+}
+
+
+
+
+.ahror-btn
+{
+    list-style-type: none;
+    margin-left: -70px;
+    padding-top: 20px;
+    width: 330px;
+}
+.ahror 
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+    line-height: 2px;
+}
+.ahror img
+{
+    border-radius: 50%;
+}
+.ahror p
+{
+    margin-top: 0px;
+     margin-left: -110px;
+     color: white;
+     font-size: 19px;
+}
+.before
+{
+    display: flex;
+    position: relative;
+}
+.before::before
+{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height:8px;
+    background-color: white;
+    border: solid 4px rgb(29, 28, 28);
+    border-radius: 50%;
+    top: 35px;
+    right: 0px;
+}
+.ax-span
+{
+    margin-left: -110px;
+     color: rgb(95, 92, 92);
+     font-size: 15px; 
+}.time-2
+{
+    color:rgb(95, 92, 92);
+    margin-right:15px;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
+
+.xurshid-btn
+{
+    list-style-type: none;
+    margin-left: -70px;
+    padding-top: 20px;
+    width: 330px;
+}
+.xurshid 
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+    line-height: 2px;
+}
+.xurshid img
+{
+    border-radius: 50%;
+}
+.xurshid p
+{
+    margin-top: 0px;
+    margin-left: -98px;
+    color: white;
+    font-size: 19px;
+}
+.x-span
+{
+    margin-left: -98px;
+    color: rgb(95, 92, 92);
+    font-size: 15px; 
+}.time-2
+{
+    color:rgb(95, 92, 92);
+    margin-right:15px;
+    font-size: 15px;
+    
+}
+
+
+.imronbek-btn
+{
+    list-style-type: none;
+    margin-left: -70px;
+    padding-top: 20px;
+    width: 330px;
+}
+.imronbek 
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+    line-height: 2px;
+}
+.imronbek img
+{
+    border-radius: 50%;
+}
+.imronbek p
+{
+    margin-top: 0px;
+     margin-left: -100px;
+     color: white;
+     font-size: 19px;
+}
+.i-span
+{
+    margin-left: -100px;
+     color: rgb(95, 92, 92);
+     font-size: 15px; 
+}.time-2
+{
+    color:rgb(95, 92, 92);
+    /* margin-right:15px; */
+    font-size: 15px;
+    
+}
+
+
+
+
+
+.domla-btn
+{
+    list-style-type: none;
+    margin-left: -70px;
+    padding-top: 20px;
+    width: 330px;
+}
+.domla 
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+    line-height: 2px;
+}
+.domla img
+{
+    border-radius: 50%;
+}
+.domla p
+{
+    margin-top: 0px;
+     margin-left: -50px;
+     color: white;
+     font-size: 20px;
+}
+.z-span
+{
+    margin-left: -50px;
+     color: rgb(95, 92, 92);
+     font-size: 15px; 
+}.time-2
+{
+    color:rgb(95, 92, 92);
+    margin-right:15px;
+    font-size: 15px;
+    
+}
+
+.section-btn-two
+{
+    width: 600px;
+    height: 520px;
+    background-color:rgb(14, 13, 13);
+}
+.profilga-yol
+{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    line-height: 0;
+    background-color:rgb(29, 28, 28);
+    padding: 10px;
+}
+.profilga-yol img
+{
+    border-radius: 50%;
+}
+.profilga-yol p
+{
+    font-size: 19px;
+    margin-top: -0px;
+    margin-left: 20px;
+}
+.profilga-yol span
+{
+    margin-left: 20px;
+
+}
+.chat
+{
+    margin-top: 405px;
+}
+.chat input
+{
+    background-color: rgb(29, 28, 28);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px 10px;
+    width: 600px;
+}
+.userinfo
+{
+    background-color: rgb(44, 42, 42);
+    width: 390px;
+    height: 470px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+    padding-left:20px ;
+}
+.userinfo h2
+{
+    color: white;
+}
+.userinfo img
+{
+    border-radius: 50%;
+}
+.profil
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+}
+.profil p
+{
+    margin-top: 0px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.profil span
+{
+    color: rgb(94, 91, 91);
+    padding-left: 20px;   
+}
+.userinfo hr
+{
+    margin-top: 40px;
+margin-left: -20px;
+height: 10px;
+border: none;
+background-color:rgb(61, 59, 59);
+}
+.tel-nomer
+{
+    padding-top: 30px;
+    line-height: 0;
+    padding-left: 50px;
+}
+.tel-nomer p
+{
+    color: white;
+}
+.tel-nomer span
+{
+    color: rgb(70, 68, 68);
+}
+.info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info a
+{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+.hr-btn a
+{
+    color: white;
+}
+.hr-btn hr
+{
+    line-height: 2px;
+    width: 30px;
+    margin-left: -45px;
+}
